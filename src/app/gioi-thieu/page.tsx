@@ -5,12 +5,12 @@ import Image from "next/image";
 export default function AboutPage() {
   return (
     <div className="bg-white">
-      <section className="bg-gradient-to-r from-teal-600 to-teal-700 text-white py-20">
+      <section className="bg-gradient-to-r bg-green-500 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               GIỚI THIỆU VỀ
-              <span className="block text-teal-200">VIỆT LONG MAY MẶC</span>
+              <span className="block font-bold">VIỆT LONG MAY MẶC</span>
             </h1>
             <p className="text-xl lg:text-2xl text-teal-100 leading-relaxed">
               Đối tác tin cậy trong việc thiết kế và sản xuất thời trang chất
@@ -129,8 +129,8 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center group">
-              <div className="bg-teal-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-600 group-hover:scale-110 transition-all duration-300">
-                <Award className="w-10 h-10 text-teal-600 group-hover:text-white" />
+              <div className="bg-green-200 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-600 group-hover:scale-110 transition-all duration-300">
+                <Award className="w-10 h-10 text-green-600 group-hover:text-white" />
               </div>
               <h3 className="text-xl font-bold text-zinc-800 mb-3">
                 Kinh nghiệm 5+ năm
@@ -141,8 +141,8 @@ export default function AboutPage() {
             </div>
 
             <div className="text-center group">
-              <div className="bg-teal-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-600 group-hover:scale-110 transition-all duration-300">
-                <CheckCircle className="w-10 h-10 text-teal-600 group-hover:text-white" />
+              <div className="bg-green-200 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-600 group-hover:scale-110 transition-all duration-300">
+                <CheckCircle className="w-10 h-10 text-green-600 group-hover:text-white" />
               </div>
               <h3 className="text-xl font-bold text-zinc-800 mb-3">
                 Chất lượng cao
@@ -153,8 +153,8 @@ export default function AboutPage() {
             </div>
 
             <div className="text-center group">
-              <div className="bg-teal-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-600 group-hover:scale-110 transition-all duration-300">
-                <TrendingUp className="w-10 h-10 text-teal-600 group-hover:text-white" />
+              <div className="bg-green-200 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-600 group-hover:scale-110 transition-all duration-300">
+                <TrendingUp className="w-10 h-10 text-green-600 group-hover:text-white" />
               </div>
               <h3 className="text-xl font-bold text-zinc-800 mb-3">
                 Giao hàng nhanh
@@ -165,8 +165,8 @@ export default function AboutPage() {
             </div>
 
             <div className="text-center group">
-              <div className="bg-teal-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-600 group-hover:scale-110 transition-all duration-300">
-                <Users className="w-10 h-10 text-teal-600 group-hover:text-white" />
+              <div className="bg-green-200 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-600 group-hover:scale-110 transition-all duration-300">
+                <Users className="w-10 h-10 text-green-600 group-hover:text-white" />
               </div>
               <h3 className="text-xl font-bold text-zinc-800 mb-3">
                 Hỗ trợ 24/7
@@ -179,32 +179,32 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+      <section className="py-20 bg-gradient-to-r  bg-green-500  text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl lg:text-5xl font-bold mb-2">
                 <CountUp end={500} duration={2} />+
               </div>
-              <div className="text-teal-200">Khách hàng hài lòng</div>
+              <div className="text-white">Khách hàng hài lòng</div>
             </div>
             <div>
               <div className="text-4xl lg:text-5xl font-bold mb-2">
                 <CountUp end={10000} duration={2} />+
               </div>
-              <div className="text-teal-200">Sản phẩm đã hoàn thành</div>
+              <div className="text-white">Sản phẩm đã hoàn thành</div>
             </div>
             <div>
               <div className="text-4xl lg:text-5xl font-bold mb-2">
-                <CountUp end={5} duration={2} />
+                <CountUp end={5} duration={2} />+
               </div>
-              <div className="text-teal-200">Năm kinh nghiệm</div>
+              <div className="text-white">Năm kinh nghiệm</div>
             </div>
             <div>
               <div className="text-4xl lg:text-5xl font-bold mb-2">
                 <CountUp end={99} duration={2} />%
               </div>
-              <div className="text-teal-200">Tỷ lệ khách hàng quay lại</div>
+              <div className="text-white">Tỷ lệ khách hàng quay lại</div>
             </div>
           </div>
         </div>
