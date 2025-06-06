@@ -65,7 +65,7 @@ const Navigation = () => {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-zinc-700 hover:text-teal-600 transition-colors duration-200 font-medium"
+                  className="text-zinc-700 hover:text-green-500 transition-colors duration-200 font-medium"
                 >
                   {item.label}
                 </Link>

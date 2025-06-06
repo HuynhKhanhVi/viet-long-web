@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/button";
 export default function HomePage() {
   return (
     <div className="bg-white">
-      <section className="relative bg-gradient-to-r from-teal-600 to-teal-400 text-white py-20 lg:py-32">
+      <section className="relative bg-gradient-to-r bg-green-500 text-white py-20 lg:py-32">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -26,7 +26,7 @@ export default function HomePage() {
                 </p>
                 <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                   THIẾT KẾ & MAY MẶC
-                  <span className="block text-teal-200">TỪ A-Z</span>
+                  {/* <span className="block text-green-400">TỪ A-Z</span> */}
                 </h1>
                 <p className="text-xl lg:text-2xl text-teal-100 leading-relaxed">
                   Bạn chỉ cần cung cấp ý tưởng, hình ảnh hoặc bản có mẫu sẵn,
@@ -64,25 +64,21 @@ export default function HomePage() {
                   <div className="text-3xl font-bold">
                     <CountUp end={500} duration={2} />+
                   </div>
-                  <div className="text-teal-200 text-sm">
-                    Khách hàng tin tưởng
-                  </div>
+                  <div className="text-white text-sm">Khách hàng tin tưởng</div>
                 </div>
 
                 <div className="text-center">
                   <div className="text-3xl font-bold">
                     <CountUp end={5} duration={2} />+
                   </div>
-                  <div className="text-teal-200 text-sm">Năm kinh nghiệm</div>
+                  <div className="text-white text-sm">Năm kinh nghiệm</div>
                 </div>
 
                 <div className="text-center">
                   <div className="text-3xl font-bold">
                     <CountUp end={100} duration={2} />%
                   </div>
-                  <div className="text-teal-200 text-sm">
-                    Cam kết chất lượng
-                  </div>
+                  <div className="text-white text-sm">Cam kết chất lượng</div>
                 </div>
               </div>
             </div>
@@ -114,8 +110,8 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Star className="w-8 h-8 text-teal-600" />
+              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Star className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="text-xl font-bold text-zinc-800 mb-4">
                 Thiết kế & Gia công may mặc
@@ -127,15 +123,15 @@ export default function HomePage() {
               </p>
               <Link
                 href="/dong-san-pham"
-                className="text-teal-600 font-medium flex items-center hover:text-teal-700"
+                className="text-green-600 font-medium flex items-center hover:text-teal-700"
               >
                 Xem sản phẩm <ArrowRight className="ml-1 w-4 h-4" />
               </Link>
             </div>
 
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <CheckCircle className="w-8 h-8 text-teal-600" />
+              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <CheckCircle className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="text-xl font-bold text-zinc-800 mb-4">
                 Cam kết chất lượng, thời gian với chi phí tốt nhất
@@ -147,15 +143,15 @@ export default function HomePage() {
               </p>
               <Link
                 href="/bao-gia"
-                className="text-teal-600 font-medium flex items-center hover:text-teal-700"
+                className="text-green-600 font-medium flex items-center hover:text-teal-700"
               >
                 Xem báo giá <ArrowRight className="ml-1 w-4 h-4" />
               </Link>
             </div>
 
             <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                <Users className="w-8 h-8 text-teal-600" />
+              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                <Users className="w-8 h-8 text-green-600" />
               </div>
               <h3 className="text-xl font-bold text-zinc-800 mb-4">
                 Bạn lo kinh doanh, việc còn lại để chúng tôi lo
@@ -167,7 +163,7 @@ export default function HomePage() {
               </p>
               <Link
                 href="/quy-trinh-dat-may"
-                className="text-teal-600 font-medium flex items-center hover:text-teal-700"
+                className="text-green-600 font-medium flex items-center hover:text-green-300"
               >
                 Xem quy trình <ArrowRight className="ml-1 w-4 h-4" />
               </Link>
@@ -181,8 +177,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-xl lg:text-3xl font-bold text-zinc-800">
-                GIỚI THIỆU
-                <span className="block text-teal-600">
+                <span className="block text-black font-bold">
                   CÔNG TY TNHH TM DV SX XNK VIỆT LONG
                 </span>
               </h2>
@@ -193,11 +188,7 @@ export default function HomePage() {
                 cao cấp. Chúng tôi giúp bạn tối ưu hóa quy trình kinh doanh thời
                 trang, thời gian ra mẫu thay đổi trend linh hoạt.
               </p>
-              <Button
-                asChild
-                size="lg"
-                className="bg-teal-600 hover:bg-teal-700"
-              >
+              <Button asChild size="lg" className="bg-black hover:bg-green-400">
                 <Link href="/gioi-thieu">
                   Tìm hiểu thêm về chúng tôi
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -215,12 +206,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+      <section className="py-20 bg-gradient-to-r bg-green-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Sẵn sàng bắt đầu dự án của bạn?
           </h2>
-          <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
             Liên hệ với chúng tôi ngay hôm nay để được tư vấn miễn phí về dự án
             thiết kế và may mặc của bạn
           </p>
@@ -228,7 +219,7 @@ export default function HomePage() {
             <Button
               asChild
               size="lg"
-              className="bg-white text-teal-700 hover:bg-teal-50"
+              className="bg-white text-teal-700 hover:bg-green-300"
             >
               <Link href="/lien-he">
                 <Phone className="mr-2 w-5 h-5" />
@@ -239,7 +230,7 @@ export default function HomePage() {
               asChild
               variant="outline"
               size="lg"
-              className="bg-white text-teal-700 hover:bg-teal-50"
+              className="bg-white text-teal-700 hover:bg-green-300"
             >
               <Link href="/bao-gia">Xem bảng giá</Link>
             </Button>

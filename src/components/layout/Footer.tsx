@@ -93,13 +93,13 @@ const Footer = () => {
             <h3 className="font-bold text-lg">Thông tin liên hệ</h3>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-teal-400 mt-0.5 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0" />
                 <div className="text-zinc-300 text-sm">
                   230/6/7/7 Mã lò. P Bình Trị Đông A, Q Bình Tân, TP.HCM
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-teal-400" />
+                <Phone className="w-5 h-5 text-green-400" />
                 <a
                   href="tel:0868900187"
                   className="text-zinc-300 hover:text-teal-400 transition-colors text-sm"
@@ -108,7 +108,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-teal-400" />
+                <Mail className="w-5 h-5 text-green-400" />
                 <a
                   href="mailto:contact@xuongmay.com"
                   className="text-zinc-300 hover:text-teal-400 transition-colors text-sm"
@@ -123,13 +123,13 @@ const Footer = () => {
               <div className="flex space-x-3">
                 <a
                   href="https://facebook.com/MMClothingStudio"
-                  className="bg-zinc-700 p-2 rounded-lg hover:bg-teal-600 transition-colors"
+                  className="bg-zinc-700 p-2 rounded-lg hover:bg-green-600 transition-colors"
                 >
                   <SiFacebook className="w-4 h-4" />
                 </a>
                 <a
                   href="https://youtube.com/@mmclothingstudio"
-                  className="bg-zinc-700 p-2 rounded-lg hover:bg-teal-600 transition-colors"
+                  className="bg-zinc-700 p-2 rounded-lg hover:bg-green-600 transition-colors"
                 >
                   <SiTiktok className="w-4 h-4" />
                 </a>
