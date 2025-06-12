@@ -55,7 +55,7 @@ const Navigation = () => {
                   VIỆT LONG MAY MẶC
                 </div>
                 <div className="text-sm text-zinc-600">
-                  Clothing Design & Manufacturing
+                  Design & Manufacture
                 </div>
               </div>
             </Link>
