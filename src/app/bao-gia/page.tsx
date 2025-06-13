@@ -130,7 +130,7 @@ export default function PricingPage() {
 
   return (
     <div className="bg-white">
-      <section className="bg-gradient-to-r from-teal-600 to-teal-700 text-white py-20">
+      <section className="bg-gradient-to-r bg-green-500 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -145,7 +145,7 @@ export default function PricingPage() {
       </section>
 
       {/* Design Pricing */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
@@ -212,7 +212,7 @@ export default function PricingPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Manufacturing Pricing */}
       <section className="py-20 bg-zinc-50">
@@ -242,7 +242,7 @@ export default function PricingPage() {
                         <span className="font-medium text-zinc-700">
                           {price.quantity}
                         </span>
-                        <span className="font-bold text-teal-600">
+                        <span className="font-bold text-green-600">
                           {price.price}
                         </span>
                       </div>
@@ -256,7 +256,7 @@ export default function PricingPage() {
       </section>
 
       {/* Additional Services */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
@@ -295,10 +295,10 @@ export default function PricingPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Form */}
-      <section className="py-20 bg-gradient-to-r from-teal-600 to-teal-700">
+      <section className="py-20 bg-gradient-to-r bg-green-500">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
@@ -327,7 +327,7 @@ export default function PricingPage() {
                     </div>
                     <div>
                       <div className="font-semibold">Hotline</div>
-                      <div className="text-teal-200">0868 900 187</div>
+                      <div className="text-white">0987 788 352</div>
                     </div>
                   </a>
 
@@ -340,7 +340,7 @@ export default function PricingPage() {
                     </div>
                     <div>
                       <div className="font-semibold">Email</div>
-                      <div className="text-teal-200">contact@xuongmay.com</div>
+                      <div className="text-white">contact@xuongmay.com</div>
                     </div>
                   </a>
 
@@ -353,7 +353,7 @@ export default function PricingPage() {
                     </div>
                     <div>
                       <div className="font-semibold">Zalo</div>
-                      <div className="text-teal-200">0868 900 187</div>
+                      <div className="text-white">0868 900 187</div>
                     </div>
                   </a>
                 </div>
@@ -362,7 +362,7 @@ export default function PricingPage() {
                   <h4 className="font-bold text-white mb-3">
                     Thời gian làm việc
                   </h4>
-                  <div className="text-teal-200 space-y-1">
+                  <div className="text-white space-y-1">
                     <div>Thứ 2 - Thứ 6: 8:00 - 18:00</div>
                     <div>Thứ 7: 8:00 - 17:00</div>
                     <div>Chủ nhật: 9:00 - 17:00</div>
@@ -468,7 +468,7 @@ export default function PricingPage() {
 
                   <Button
                     type="submit"
-                    className="w-full bg-teal-600 hover:bg-teal-700"
+                    className="w-full bg-green-600 hover:bg-teal-700"
                     size="lg"
                   >
                     Gửi yêu cầu báo giá

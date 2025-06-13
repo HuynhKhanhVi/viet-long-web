@@ -62,12 +62,12 @@ export default function ProductsPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-teal-600 to-teal-700 text-white py-20">
+      <section className="bg-gradient-to-r bg-green-500 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               DÒNG SẢN PHẨM
-              <span className="block text-teal-200">THỜI TRANG CAO CẤP</span>
+              <span className="block text-white">THỜI TRANG CAO CẤP</span>
             </h1>
             <p className="text-xl lg:text-2xl text-teal-100 leading-relaxed">
               Thiết kế và may mặc đa dạng các mặt hàng thời trang từ công sở đến
@@ -111,7 +111,7 @@ export default function ProductsPage() {
                           key={typeIndex}
                           className="flex items-center space-x-2"
                         >
-                          <div className="w-2 h-2 bg-teal-600 rounded-full"></div>
+                          <div className="w-2 h-2 bg-green-600 rounded-full"></div>
                           <span className="text-zinc-700">{type}</span>
                         </div>
                       ))}
@@ -120,7 +120,7 @@ export default function ProductsPage() {
 
                   <Link
                     href="/lien-he"
-                    className="inline-flex items-center text-teal-600 font-semibold hover:text-teal-700 transition-colors"
+                    className="inline-flex items-center text-green-600 font-semibold hover:text-teal-700 transition-colors"
                   >
                     Liên hệ đặt may
                     <ArrowRight className="ml-2 w-5 h-5" />
@@ -182,7 +182,7 @@ export default function ProductsPage() {
                   key={index}
                   className="flex items-center space-x-4 bg-white p-6 rounded-lg shadow-md"
                 >
-                  <div className="bg-teal-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">
+                  <div className="bg-green-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">
                     {index + 1}
                   </div>
                   <span className="text-zinc-700 font-medium">{service}</span>
@@ -256,7 +256,7 @@ export default function ProductsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+      <section className="py-20 bg-gradient-to-r bg-green-500 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Bạn có ý tưởng thiết kế?

@@ -98,7 +98,7 @@ export default function ProcessPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-teal-600 to-teal-700 text-white py-20">
+      <section className="bg-gradient-to-r  bg-green-500 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -106,9 +106,8 @@ export default function ProcessPage() {
               <span className="block text-teal-200">CHUYÊN NGHIỆP</span>
             </h1>
             <p className="text-xl lg:text-2xl text-teal-100 leading-relaxed">
-              Để đảm bảo chất lượng và thời gian, khi làm việc với M&M Clothing
-              Studio, chúng tôi có quy trình đặt may thuận lợi và nhanh chóng
-              nhất.
+              Để đảm bảo chất lượng và thời gian, khi làm việc với Việt Long May
+              Mặc, chúng tôi có quy trình đặt may thuận lợi và nhanh chóng nhất.
             </p>
           </div>
         </div>
@@ -142,7 +141,7 @@ export default function ProcessPage() {
                     }`}
                   >
                     <div className="flex items-center space-x-4">
-                      <div className="bg-teal-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl">
+                      <div className="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl">
                         {process.step}
                       </div>
                       <div>
@@ -221,7 +220,7 @@ export default function ProcessPage() {
                   key={index}
                   className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow text-center"
                 >
-                  <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-teal-600">
+                  <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-teal-600">
                     {advantage.icon}
                   </div>
                   <h3 className="text-xl font-bold text-zinc-800 mb-4">
@@ -250,11 +249,11 @@ export default function ProcessPage() {
               </p>
             </div>
 
-            <div className="bg-gradient-to-r from-teal-600 to-teal-700 rounded-2xl p-8 text-white">
+            <div className="bg-gradient-to-r bg-green-500 rounded-2xl p-8 text-white">
               <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-center">
                 <div className="space-y-2">
                   <div className="text-3xl font-bold">1-2</div>
-                  <div className="text-teal-200 text-sm">Ngày thiết kế</div>
+                  <div className="text-green-200 text-sm">Ngày thiết kế</div>
                 </div>
                 <div className="space-y-2">
                   <div className="text-3xl font-bold">2-3</div>
@@ -287,7 +286,7 @@ export default function ProcessPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+      <section className="py-20 bg-gradient-to-r bg-green-500 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
             Sẵn sàng bắt đầu dự án?

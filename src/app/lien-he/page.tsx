@@ -69,12 +69,12 @@ export default function ContactPage() {
 
   return (
     <div className="bg-white">
-      <section className="bg-gradient-to-r from-teal-600 to-teal-700 text-white py-20">
+      <section className="bg-gradient-to-r bg-green-500 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               LIÊN HỆ VỚI CHÚNG TÔI
-              <span className="block text-teal-200">M&M CLOTHING STUDIO</span>
+              <span className="block text-teal-200">VIỆT LONG MAY MẶC</span>
             </h1>
             <p className="text-xl lg:text-2xl text-teal-100 leading-relaxed">
               Sẵn sàng hỗ trợ và tư vấn miễn phí cho dự án của bạn 24/7
@@ -92,7 +92,7 @@ export default function ContactPage() {
                   key={index}
                   className="bg-white border border-zinc-200 rounded-xl p-6 hover:shadow-lg transition-shadow text-center"
                 >
-                  <div className="bg-teal-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-teal-600">
+                  <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-teal-600">
                     {info.icon}
                   </div>
                   <h3 className="text-lg font-semibold text-zinc-800 mb-2">
@@ -205,7 +205,7 @@ export default function ContactPage() {
 
                   <Button
                     type="submit"
-                    className="w-full bg-teal-600 hover:bg-teal-700"
+                    className="w-full bg-green-600 hover:bg-teal-700"
                     size="lg"
                   >
                     <Send className="mr-2 w-5 h-5" />
@@ -245,7 +245,7 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-teal-600 to-teal-700 rounded-xl p-8 text-white">
+                <div className="bg-gradient-to-r bg-green-500 rounded-xl p-8 text-white">
                   <h3 className="text-2xl font-bold mb-6">Cần hỗ trợ gấp?</h3>
                   <div className="space-y-4">
                     <a

@@ -14,7 +14,7 @@ const Navigation = () => {
     { href: "/dong-san-pham", label: "Dòng sản phẩm" },
     { href: "/quy-trinh-dat-may", label: "Quy trình đặt may" },
     { href: "/bao-gia", label: "Báo giá" },
-    { href: "/tin-tuc", label: "Tin tức" },
+    // { href: "/tin-tuc", label: "Tin tức" },
     { href: "/lien-he", label: "Liên hệ" },
   ];
 
